@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elhiacelys Jaell Solano Mesa | Técnica en Informática</title>
+    <meta
+      name="description"
+      content="Portafolio de Elhiacelys Jaell Solano Mesa, Técnica en Informática de Santo Domingo, República Dominicana. Conoce mis habilidades, proyectos y experiencia."
+    />
+    <meta
+      name="keywords"
+      content="Elhiacelys Jaell Solano Mesa, Técnica en Informática, portafolio, Santo Domingo, República Dominicana, ofimática, bases de datos, Windows Forms"
+    />
+    <meta name="author" content="Elhiacelys Jaell Solano Mesa" />
+    <meta name="theme-color" content="#FAF7F2" id="themeColorMeta" />
+    <meta
+      property="og:title"
+      content="Elhiacelys Jaell Solano Mesa | Técnica en Informática"
+    />
+    <meta
+      property="og:description"
+      content="Mi portafolio: habilidades, proyectos y experiencia en Informática."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_DO" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22> </text></svg>"
+    />
+
+    <!-- Google Fonts: Cormorant Garamond (títulos) y DM Sans (textos) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5.3.3 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome 6.5.1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg bg-light fixed-top"
+      aria-label="Navegación principal"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#inicio">Jaell Solano</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuPrincipal"
+          aria-controls="menuPrincipal"
+          aria-expanded="false"
+          aria-label="Abrir o cerrar el menú"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+              <button
+                id="themeToggle"
+                class="btn btn-outline-primary btn-sm"
+                type="button"
+                aria-label="Cambiar entre modo claro y oscuro"
+                aria-pressed="false"
+              >
+                <i class="fa-solid fa-moon" aria-hidden="true"></i>
+                <span class="ms-1" id="themeToggleText">Modo oscuro</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="contenido">
+      <!-- INICIO -->
+      <header id="inicio" class="hero vh-100 d-flex align-items-center">
+        <div class="container">
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-7 order-2 order-lg-1 text-center text-lg-start">
+              <p class="eyebrow fade-in-up">Técnica en Informática</p>
+              <h1 class="hero-title fade-in-up delay-1">
+                Elhiacelys Jaell <span class="title-accent">Solano Mesa</span>
+              </h1>
+              <span
+                class="divider fade-in-up delay-1"
+                aria-hidden="true"
+              ></span>
+              <p class="hero-text fade-in-up delay-2">
+                Soy una persona responsable, proactiva y comprometida con cada
+                actividad que realizo. Me caracterizo por mi dedicación,
+                organización y disposición para aprender y superar nuevos retos.
+              </p>
+              <p class="hero-location fade-in-up delay-2">
+                <i
+                  class="fa-solid fa-location-dot text-primary"
+                  aria-hidden="true"
+                ></i>
+                Santo Domingo, República Dominicana
+              </p>
+              <div class="hero-actions fade-in-up delay-3">
+                <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                <a href="#contacto" class="btn btn-outline-primary"
+                  >Contáctame</a
+                >
+              </div>
+            </div>
+            <div
+              class="col-lg-5 order-1 order-lg-2 d-flex justify-content-center"
+            >
+              <div class="photo-frame fade-in-up delay-1">
+                <img
+                  src="mi-foto.png"
+                  alt="Fotografía de Elhiacelys Jaell Solano Mesa, Técnica en Informática"
+                  class="hero-photo"
+                  fetchpriority="high"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- SOBRE MÍ -->
+      <section
+        id="sobre-mi"
+        class="section bg-light"
+        aria-labelledby="titulo-sobre-mi"
+      >
+        <div class="container">
+          <div class="section-head text-center reveal">
+            <h2 id="titulo-sobre-mi" class="section-title">
+              <i
+                class="fa-solid fa-user title-icon text-primary"
+                aria-hidden="true"
+              ></i
+              >Sobre Mí
+            </h2>
+            <span class="divider mx-auto" aria-hidden="true"></span>
+          </div>
+
+          <div class="about-text text-center mx-auto reveal">
+            <p>
+              Soy técnica en Informática, con interés en la tecnología, la
+              creatividad y el desarrollo de soluciones informáticas. Me
+              considero una persona organizada, responsable y proactiva, con
+              facilidad para adaptarme a diferentes situaciones y mantener el
+              enfoque en mis objetivos.
+            </p>
+            <p class="mb-0">
+              Me gusta anticiparme a mis responsabilidades, aprender cosas
+              nuevas y aportar ideas que permitan mejorar el trabajo. Disfruto
+              especialmente desarrollar proyectos en los que pueda combinar mis
+              conocimientos técnicos con mi creatividad.
+            </p>
+          </div>
+
+          <h3 class="subsection-title text-center reveal">Habilidades</h3>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4 reveal">
+              <div class="feature text-center">
+                <span class="feature-icon"
+                  ><i
+                    class="fa-solid fa-file-word fa-2x text-primary"
+                    aria-hidden="true"
+                  ></i
+                ></span>
+                <h4 class="feature-title">Herramientas ofimáticas</h4>
+                <p>
+                  Manejo de Microsoft Word, Excel y PowerPoint para elaborar
+                  documentos, organizar datos y crear presentaciones.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal d1">
+              <div class="feature text-center">
+                <span class="feature-icon"
+                  ><i
+                    class="fa-solid fa-database fa-2x text-primary"
+                    aria-hidden="true"
+                  ></i
+                ></span>
+                <h4 class="feature-title">Bases de datos</h4>
+                <p>
+                  Conocimientos en organización, administración y manejo de
+                  información.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal d2">
+              <div class="feature text-center">
+                <span class="feature-icon"
+                  ><i
+                    class="fa-solid fa-laptop-code fa-2x text-primary"
+                    aria-hidden="true"
+                  ></i
+                ></span>
+                <h4 class="feature-title">Programación</h4>
+                <p>
+                  Conocimientos de desarrollo de aplicaciones utilizando Visual
+                  Studio y Windows Forms.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal">
+              <div class="feature text-center">
+                <span class="feature-icon"
+                  ><i
+                    class="fa-solid fa-users fa-2x text-primary"
+                    aria-hidden="true"
+                  ></i
+                ></span>
+                <h4 class="feature-title">Comunicación</h4>
+                <p>
+                  Facilidad para expresar ideas, compartir conocimientos y
+                  colaborar con otras personas.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal d1">
+              <div class="feature text-center">
+                <span class="feature-icon"
+                  ><i
+                    class="fa-solid fa-bullseye fa-2x text-primary"
+                    aria-hidden="true"
+                  ></i
+                ></span>
+                <h4 class="feature-title">Organización y responsabilidad</h4>
+                <p>
+                  Capacidad para planificar actividades, cumplir compromisos y
+                  entregar tareas dentro de los plazos establecidos.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal d2">
+              <div class="feature text-center">
+                <span class="feature-icon"
+                  ><i
+                    class="fa-solid fa-seedling fa-2x text-primary"
+                    aria-hidden="true"
+                  ></i
+                ></span>
+                <h4 class="feature-title">Adaptabilidad</h4>
+                <p>
+                  Disposición para aprender nuevas herramientas y enfrentar
+                  diferentes retos.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="interests mx-auto text-center reveal">
+            <i
+              class="fa-solid fa-lightbulb fa-lg text-primary mb-2"
+              aria-hidden="true"
+            ></i>
+            <h3 class="interests-title">Intereses</h3>
+            <p class="mb-0">
+              Me gusta explorar mi creatividad a través de proyectos
+              tecnológicos, aprender sobre nuevas herramientas informáticas y
+              encontrar maneras de convertir mis ideas en soluciones prácticas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROYECTOS -->
+      <section
+        id="proyectos"
+        class="section bg-white"
+        aria-labelledby="titulo-proyectos"
+      >
+        <div class="container">
+          <div class="section-head text-center reveal">
+            <h2 id="titulo-proyectos" class="section-title">
+              <i
+                class="fa-solid fa-diagram-project title-icon text-primary"
+                aria-hidden="true"
+              ></i
+              >Proyectos
+            </h2>
+            <span class="divider mx-auto" aria-hidden="true"></span>
+          </div>
+          <div class="row g-4 mt-2">
+            <div class="col-md-6 col-lg-4 reveal">
+              <article class="card project-card h-100">
+                <div class="project-visual" aria-hidden="true">
+                  <i class="fa-solid fa-window-maximize fa-3x text-primary"></i>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title">
+                    Desarrollo de aplicaciones con Windows Forms
+                  </h3>
+                  <p class="card-text">
+                    Creación de proyectos académicos utilizando Visual Studio y
+                    Windows Forms, aplicando conocimientos de programación,
+                    diseño de interfaces y organización de funcionalidades para
+                    desarrollar aplicaciones de escritorio.
+                  </p>
+                  <p class="mb-0 mt-auto">
+                    <span class="tech-badge">Visual Studio</span>
+                    <span class="tech-badge">Windows Forms</span>
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal d1">
+              <article class="card project-card h-100">
+                <div class="project-visual" aria-hidden="true">
+                  <i class="fa-solid fa-database fa-3x text-primary"></i>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title">Tutorías de bases de datos</h3>
+                  <p class="card-text">
+                    Apoyo y orientación en el aprendizaje de conceptos básicos
+                    de bases de datos, incluyendo la organización,
+                    administración y manejo de información, facilitando la
+                    comprensión de estos conocimientos.
+                  </p>
+                  <p class="mb-0 mt-auto">
+                    <span class="tech-badge">Bases de datos</span>
+                    <span class="tech-badge">Tutorías</span>
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal d2">
+              <article class="card project-card h-100">
+                <div class="project-visual" aria-hidden="true">
+                  <i class="fa-solid fa-file-lines fa-3x text-primary"></i>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h3 class="card-title">Manejo de herramientas ofimáticas</h3>
+                  <p class="card-text">
+                    Aplicación de conocimientos de Microsoft Word, Excel y
+                    PowerPoint durante mi experiencia de pasantía, realizando
+                    actividades relacionadas con la creación de documentos,
+                    organización de información y elaboración de presentaciones.
+                  </p>
+                  <p class="mb-0 mt-auto">
+                    <span class="tech-badge">Word</span>
+                    <span class="tech-badge">Excel</span>
+                    <span class="tech-badge">PowerPoint</span>
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCIA -->
+      <section
+        id="experiencia"
+        class="section bg-light"
+        aria-labelledby="titulo-experiencia"
+      >
+        <div class="container">
+          <div class="section-head text-center reveal">
+            <h2 id="titulo-experiencia" class="section-title">
+              <i
+                class="fa-solid fa-briefcase title-icon text-primary"
+                aria-hidden="true"
+              ></i
+              >Experiencia
+            </h2>
+            <span class="divider mx-auto" aria-hidden="true"></span>
+          </div>
+          <div class="row g-4 mt-2 justify-content-center">
+            <div class="col-md-6 reveal">
+              <article class="card exp-card h-100 text-center">
+                <div class="card-body">
+                  <i
+                    class="fa-solid fa-building fa-3x text-primary mb-3"
+                    aria-hidden="true"
+                  ></i>
+                  <h3 class="card-title">Pasantía</h3>
+                  <p class="exp-company">
+                    Politécnico Profesor Víctor Pascual Agüero
+                  </p>
+                  <p class="exp-date">Actualmente</p>
+                  <p class="card-text">
+                    Actualmente realizo mi pasantía en el Politécnico Profesor
+                    Víctor Pascual Agüero, donde tengo la oportunidad de poner
+                    en práctica los conocimientos adquiridos durante mi
+                    formación como Técnica en Informática.
+                  </p>
+                  <p class="card-text mb-0">
+                    Esta experiencia me permite fortalecer mis habilidades en el
+                    manejo de herramientas ofimáticas, organización de
+                    información y apoyo en tareas informáticas, además de
+                    desarrollar competencias como la responsabilidad, la
+                    comunicación y el trabajo en equipo.
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 reveal d1">
+              <article class="card exp-card h-100 text-center">
+                <div class="card-body">
+                  <i
+                    class="fa-solid fa-graduation-cap fa-3x text-primary mb-3"
+                    aria-hidden="true"
+                  ></i>
+                  <h3 class="card-title">Formación complementaria</h3>
+                  <p class="card-text mb-0">
+                    He participado en cursos de formación que me han permitido
+                    ampliar mis conocimientos en el área informática, fortalecer
+                    mis habilidades técnicas y continuar desarrollándome
+                    académica y profesionalmente.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTO -->
+      <section
+        id="contacto"
+        class="section bg-white"
+        aria-labelledby="titulo-contacto"
+      >
+        <div class="container">
+          <div class="section-head text-center reveal">
+            <h2 id="titulo-contacto" class="section-title">
+              <i
+                class="fa-solid fa-envelope title-icon text-primary"
+                aria-hidden="true"
+              ></i
+              >Contacto
+            </h2>
+            <span class="divider mx-auto" aria-hidden="true"></span>
+          </div>
+          <div class="row g-5 mt-2 align-items-start">
+            <div class="col-lg-5 reveal">
+              <p class="contact-intro">
+                Si quieres escribirme o conocer más sobre mi trabajo, puedes
+                contactarme por estos medios:
+              </p>
+              <ul class="contact-list list-unstyled">
+                <li>
+                  <a
+                    class="contact-item"
+                    href="mailto:elhiacelysjaell@gmail.com"
+                  >
+                    <span class="contact-icon"
+                      ><i
+                        class="fa-solid fa-envelope text-primary"
+                        aria-hidden="true"
+                      ></i
+                    ></span>
+                    <span class="contact-text">
+                      <small>Correo electrónico</small>
+                      <strong>elhiacelysjaell@gmail.com</strong>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact-item" href="tel:+18098734261">
+                    <span class="contact-icon"
+                      ><i
+                        class="fa-solid fa-phone text-primary"
+                        aria-hidden="true"
+                      ></i
+                    ></span>
+                    <span class="contact-text">
+                      <small>Teléfono</small>
+                      <strong>(809) 873-4261</strong>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="contact-item"
+                    href="https://www.instagram.com/elhia.sm_/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram @elhia.sm_ (se abre en una pestaña nueva)"
+                  >
+                    <span class="contact-icon"
+                      ><i
+                        class="fa-brands fa-instagram text-primary"
+                        aria-hidden="true"
+                      ></i
+                    ></span>
+                    <span class="contact-text">
+                      <small>Instagram</small>
+                      <strong>@elhia.sm_</strong>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <div class="contact-item contact-static">
+                    <span class="contact-icon"
+                      ><i
+                        class="fa-solid fa-location-dot text-primary"
+                        aria-hidden="true"
+                      ></i
+                    ></span>
+                    <span class="contact-text">
+                      <small>Ubicación</small>
+                      <strong>Santo Domingo, República Dominicana</strong>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-7 reveal d1">
+              <form
+                id="contactForm"
+                class="card form-card"
+                novalidate
+                aria-label="Formulario de contacto de demostración"
+              >
+                <p class="form-note">
+                  Este formulario es solo una demostración: no envía mensajes
+                  reales.
+                </p>
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Tu nombre"
+                    autocomplete="name"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Por favor, escribe tu nombre.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="correo" class="form-label"
+                    >Correo electrónico</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="correo"
+                    name="correo"
+                    placeholder="tucorreo@ejemplo.com"
+                    autocomplete="email"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Por favor, escribe un correo válido.
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea
+                    class="form-control"
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    placeholder="Escribe tu mensaje"
+                    required
+                  ></textarea>
+                  <div class="invalid-feedback">
+                    Por favor, escribe tu mensaje.
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">
+                  <i
+                    class="fa-solid fa-paper-plane me-1"
+                    aria-hidden="true"
+                  ></i>
+                  Enviar mensaje
+                </button>
+                <div
+                  id="formMessage"
+                  class="alert alert-success mt-3 mb-0 d-none"
+                  role="status"
+                  aria-live="polite"
+                ></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer text-center">
+      <div class="container">
+        <p class="footer-brand">Elhiacelys Jaell Solano Mesa</p>
+        <p class="mb-0">
+          © 2025 Elhiacelys Jaell Solano Mesa. Hecho con
+          <i class="fa-solid fa-heart" aria-label="amor"></i>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS y script propio -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
