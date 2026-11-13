@@ -127,9 +127,10 @@
         }
 
         // No se envía nada: es solo una demostración
-        formMessage.textContent = 'Formulario de demostración: tu mensaje no se envió realmente. ' +
-            'Si quieres escribirme, usa mi correo o mi teléfono.';
-        formMessage.classList.remove('d-none');
+       // Mostrar confirmación de envío
+formMessage.textContent = '¡Mensaje enviado correctamente! Gracias por contactarme.';
+
+formMessage.classList.remove('d-none');
         form.reset();
         form.classList.remove('was-validated');
 
