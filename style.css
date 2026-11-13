@@ -934,3 +934,35 @@ body.dark .site-footer .fa-heart {
         transition: none;
     }
 }
+
+/* REDES SOCIALES */
+.social-section {
+    background: var(--page-bg);
+    color: var(--heading);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 22px;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--beige-soft);
+    color: var(--terracota);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-5px);
+    background: var(--beige);
+}
